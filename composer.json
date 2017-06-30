@@ -1,0 +1,22 @@
+{
+    "name": "ciebit/js-hermes",
+    "description": "Módulo para gerenciamento de comunicação entre objetos",
+    "keywords": ["ciebit","js","mensagens","avisos"],
+    "homepage": "http://ciebit.com.br",
+    "type": "ciebit-js",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Johnny Saymon",
+            "email": "saymon@ciebit.com.br",
+            "homepage": "https://twitter.com/JohnnySaymon",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@ciebit.com.br"
+    },
+    "require": {
+        "ciebit/cb-instalador-composer": "dev-master"
+    }
+}

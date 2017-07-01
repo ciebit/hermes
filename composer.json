@@ -4,12 +4,18 @@
     "keywords": ["ciebit","js","mensagens","avisos"],
     "homepage": "http://ciebit.com.br",
     "type": "ciebit-js",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Johnny Saymon",
             "email": "saymon@ciebit.com.br",
             "homepage": "https://twitter.com/JohnnySaymon",
+            "role": "Developer"
+        },
+        {
+            "name": "Maike Negreiros",
+            "email": "maike_jbe@hotmail.com",
+            "homepage": "https://www.facebook.com/maikejbe",
             "role": "Developer"
         }
     ],
@@ -17,6 +23,6 @@
         "email": "suporte@ciebit.com.br"
     },
     "require": {
-        "ciebit/cb-instalador-composer": "dev-master"
+        "ciebit/cb-instalador-composer": "^1.0.0"
     }
 }

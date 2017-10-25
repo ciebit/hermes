@@ -1,8 +1,7 @@
 {
-  "name": "ciebit-hermes",
-  "version": "1.0.0",
+  "name": "@ciebit/hermes",
+  "version": "2.0.0",
   "description": "Módulo para gerenciamento de comunicação entre objetos",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +9,30 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/ciebit/js-hermes.git"
   },
+  "main": "index.ts",
   "keywords": [
     "comunicação",
     "mensagens",
     "eventos",
     "avisos"
   ],
-  "author": "Johnny Saymon",
+  "author": {
+      "name": "Ciebit",
+      "email": "atendimento@ciebit.com.br",
+      "url": "http://ciebit.com.br"
+  },
+  "contributors": [
+      {
+          "name": "Johnny Saymon",
+          "email": "saymon@ciebit.com.br",
+          "url": "https://twitter.com/JohnnySaymon"
+      },
+      {
+          "name": "Maike Negreiros",
+          "email": "maike_jbe@hotmail.com",
+          "url": "https://www.facebook.com/maikejbe"
+      }
+  ],
   "license": "MIT",
   "homepage": "https://bitbucket.org/ciebit/js-hermes#readme"
 }

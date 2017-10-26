@@ -6,5 +6,8 @@
         "module": "amd",
         "moduleResolution": "node",
         "outDir": "dist/"
-    }
+    },
+    "files": [
+        "src/Hermes.ts"
+    ]
 }

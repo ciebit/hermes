@@ -1,6 +1,6 @@
 {
   "name": "@ciebit/hermes",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Módulo para gerenciamento de comunicação entre objetos",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

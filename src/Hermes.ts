@@ -97,4 +97,4 @@ class Hermes
     }
 }
 
-export { Hermes }
+export default Hermes;

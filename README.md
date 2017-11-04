@@ -6,7 +6,7 @@ Módulo comunicador de eventos.
 
 ## Browser
 
-Os módulos Ciebit foram projetos para trabalhar com o [RequireJs](http://requirejs.org/), para usar basta passar como dependência, assim:
+Os módulos Ciebit foram projetados para trabalhar com o [RequireJs](http://requirejs.org/), para usar basta passar como dependência:
 
 ```
 #!javascript
@@ -21,7 +21,7 @@ E adicionar nas configurações:
 #!javascript
 require.config({
     paths: {
-        "@ciebit/hermes": "//js.ciebit.com/hermes/v3.0.0.js"
+        "@ciebit/hermes": "//js.ciebit.com/hermes/v3.0.2.js"
     }
 });
 ```
@@ -32,16 +32,16 @@ Para embutir no projeto ele pode ser baixando através do comando abaixo:
 
 ```
 #!shell
-npm install @ciebit/hermes
+npm install --save @ciebit/hermes
 ```
 
 ## Utilização
 
-Você poderá usar o Hermes para armazenar solicitações funções de callback. Exemplo:
+Você poderá usar o Hermes para armazenar solicitações com funções de callback. Exemplo:
 
 ```
 #!typescript
-import { Hermes } from "@ciebit/hermes";
+import Hermes from "@ciebit/hermes";
 
 let HermesObj:Hermes = new Hermes;
 

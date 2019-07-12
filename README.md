@@ -1,59 +1,18 @@
 # @ciebit/hermes
 
-Módulo comunicador de eventos.
+Provide event-like structure for communication between objects
 
-## Instalação
+## Use
 
-## Browser
-
-Os módulos Ciebit foram projetados para trabalhar com o [RequireJs](http://requirejs.org/), para usar basta passar como dependência:
-
-```
-#!javascript
-require(["@ciebit/hermes"], function(hermes){
-    // Utilizar aqui
-});
-```
-
-E adicionar nas configurações:
-
-```
-#!javascript
-require.config({
-    paths: {
-        "@ciebit/hermes": "//js.ciebit.com/hermes/v3.0.2.js"
-    }
-});
-```
-
-## Via NPM
-
-Para embutir no projeto ele pode ser baixando através do comando abaixo:
-
-```
-#!shell
-npm install --save @ciebit/hermes
-```
-
-## Utilização
-
-Você poderá usar o Hermes para armazenar solicitações com funções de callback. Exemplo:
-
-```
-#!typescript
+```typescript
 import Hermes from "@ciebit/hermes";
 
-let HermesObj:Hermes = new Hermes;
+const hermes = new Hermes;
 
-/*
-Aqui é passando como primeiro parâmetro um identificador do evento
-e no segundo uma função de callback
-*/
-HermesObj.aviseMe('ativado', function(){ console.log('Fui ativado') });
+hermes.addListener('active', (text:string) => console.log(text));
+hermes.dispache('active', 'Activated');
 
 
-/*
-A função informada acima será chamada com o comando abaixo
-*/
-HermesObj.avise('ativado');
+// For a single call to pass true in the third parameter
+hermes.addListener('unique', () => console.log('Unique'), true)
 ```

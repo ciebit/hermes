@@ -1,39 +1,49 @@
 {
   "name": "@ciebit/hermes",
-  "version": "3.0.2",
-  "description": "Módulo para gerenciamento de comunicação entre objetos",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "fabricar": "tsc -p tsconfig.json"
+  "version": "4.0.0",
+  "description": "Provide event-like structure for communication between objects",
+  "main": "index.ts",
+  "license": "MIT",
+  "homepage": "https://github.com/ciebit/hermes#readme",
+  "directories": {
+    "example": "example",
+    "lib": "app"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ciebit/js-hermes.git"
+    "url": "git+https://github.com/ciebit/hermes.git"
   },
-  "main": "src/Hermes.ts",
   "keywords": [
     "comunicação",
     "mensagens",
     "eventos",
     "avisos"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development"
+  },
   "author": {
-      "name": "Ciebit",
-      "email": "atendimento@ciebit.com.br",
-      "url": "http://ciebit.com.br"
+    "name": "Ciebit",
+    "email": "atendimento@ciebit.com.br",
+    "url": "http://ciebit.com.br"
   },
   "contributors": [
-      {
-          "name": "Johnny Saymon",
-          "email": "saymon@ciebit.com.br",
-          "url": "https://twitter.com/JohnnySaymon"
-      },
-      {
-          "name": "Maike Negreiros",
-          "email": "maike_jbe@hotmail.com",
-          "url": "https://www.facebook.com/maikejbe"
-      }
+    {
+      "name": "Johnny Saymon",
+      "email": "saymon@ciebit.com",
+      "url": "https://twitter.com/JohnnySaymon"
+    },
+    {
+      "name": "Maike Negreiros",
+      "email": "maike_jbe@hotmail.com",
+      "url": "https://www.facebook.com/maikejbe"
+    }
   ],
-  "license": "MIT",
-  "homepage": "https://bitbucket.org/ciebit/js-hermes#readme"
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.5.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
 }

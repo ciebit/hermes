@@ -1,17 +1,17 @@
 {
   "name": "@ciebit/hermes",
-  "version": "3.0.2",
-  "description": "Módulo para gerenciamento de comunicação entre objetos",
+  "version": "4.0.0",
+  "description": "Provide event-like structure for communication between objects",
   "main": "index.ts",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/ciebit/js-hermes#readme",
+  "homepage": "https://github.com/ciebit/hermes#readme",
   "directories": {
     "example": "example",
     "lib": "app"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ciebit/js-hermes.git"
+    "url": "git+https://github.com/ciebit/hermes.git"
   },
   "keywords": [
     "comunicação",

@@ -1,3 +1,3 @@
-import Hermes from './src/Hermes';
+import Hermes from './app/Hermes';
 
 export default Hermes;

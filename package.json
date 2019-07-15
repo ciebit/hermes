@@ -1,13 +1,14 @@
 {
   "name": "@ciebit/hermes",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Provide event-like structure for communication between objects",
-  "main": "index.ts",
+  "main": "lib/Hermes.js",
+  "types": "lib/Hermes.d.js",
   "license": "MIT",
   "homepage": "https://github.com/ciebit/hermes#readme",
   "directories": {
     "example": "example",
-    "lib": "app"
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=development"
+    "build": "tsc",
+    "build-example": "webpack --mode=development"
   },
   "author": {
     "name": "Ciebit",

@@ -1,10 +1,9 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
-        "rootDir": ".",
         "target": "es5",
-        "module": "amd",
-        "moduleResolution": "node",
-        "removeComments": true
-    }
+        "module": "ES2015",
+        "declaration": true,
+        "outDir": "lib",
+    },
+    "include": [ "source/Hermes.ts"]
 }

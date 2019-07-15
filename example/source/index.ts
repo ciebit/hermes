@@ -1,4 +1,4 @@
-import Hermes from './../../app/Hermes'
+import Hermes from './../../index'
 
 document.addEventListener('DOMContentLoaded', () => {
     const printContainer: HTMLElement = document.querySelector('.print')
